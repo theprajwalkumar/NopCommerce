@@ -11,9 +11,9 @@ import io.cucumber.junit.CucumberOptions;
 glue="AddCustomerStepDefination", 
 dryRun = false, monochrome = true,
 plugin = {
-		"pretty", "html:target/Cucumber-report/New1.html" },
+		"pretty", "html:target/Cucumber-report/Register1.html" },
 
-		tags = "@regression1"
+		tags = "@tag1"
 
 )
 
